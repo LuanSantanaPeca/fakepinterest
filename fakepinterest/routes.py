@@ -35,7 +35,6 @@ def criarconta():
 
 
 @app.route("/perfil/<id_usuario>", methods=["GET", "POST"])
-@login_required
 def perfil(id_usuario):
     if int(id_usuario) == int(current_user.id):
         formfoto = FormFoto()
