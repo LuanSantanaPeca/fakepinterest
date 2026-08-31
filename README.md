@@ -24,3 +24,5 @@ Nesse caso as imagens colocadas pela conta logada ainda aparecerão, mas não ex
 É possível também criar mais de uma conta para os testes. Nesse caso, todas as contas poderão ver todos os uploads, mas cada um verá somente seus próprios uploads na página de perfil.
 
 Ao parar o servidor local (com Ctrl + C) o sql local criado anteriormente é deletado, então parar o servidor e iniciá-lo novamente fará com que todas as contas e imagens sejam apagadas.
+
+*Utilização de Inteligência Artificial para auxiliar no desenvolvimento do sistema de apagar o banco de dados local quando finalizando o servidor, desenvolvido bastante tempo após o projeto original*
