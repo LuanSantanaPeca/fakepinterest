@@ -9,7 +9,7 @@ Para visualizar o projeto (construído no Python 3.12):
 3. Abra a pasta fakepinterest-main em um editor de código;
 3/1. Também é possível rodar diretamente pelo CMD ou PowerShell, navegando diretamente até a pasta fakepinterest-main;
 4. No terminal, rode a linha:
-   py -m pip install Flask Flask-SQLAlchemy Flask-Login Flask-Bcrypt Flask-WTF email-validator
+   "py -m pip install Flask Flask-SQLAlchemy Flask-Login Flask-Bcrypt Flask-WTF email-validator" (sem as aspas)
    para baixar todas as dependências;
 5. Ainda no terminal, rode:
    py main.py
