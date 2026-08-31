@@ -12,14 +12,14 @@ Para visualizar o projeto (construído no Python 3.12):
    "py -m pip install Flask Flask-SQLAlchemy Flask-Login Flask-Bcrypt Flask-WTF email-validator" (sem as aspas)
    para baixar todas as dependências;
 5. Ainda no terminal, rode:
-   py main.py
-6. O projeto rodará em um servidor local, indicado no próprio terminal
+   py main.py;
+6. O projeto rodará em um servidor local, indicado no próprio terminal.
 
 Possível sequência de testes sugerida:
 - Crie uma conta com email, nome de usuário e senha;
 - Vá para a aba de perfil e faça upload de uma ou duas imagens;
 - Saia da conta criada;
-- Escolha "Navegar como visitante";
+- Escolha "Navegar como visitante".
 Nesse caso as imagens colocadas pela conta logada ainda aparecerão, mas não existirá uma página de perfil ou como fazer upload enquanto visitante.
 É possível também criar mais de uma conta para os testes. Nesse caso, todas as contas poderão ver todos os uploads, mas cada um verá somente seus próprios uploads na página de perfil.
 
